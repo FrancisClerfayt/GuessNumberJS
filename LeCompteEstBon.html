@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Le compte est bon</title>
+  <link rel="stylesheet" href="LeCompteEstBon.css">
+</head>
+<body>
+  <h1>Le Compte est bon</h1>
+  <h2>Veuillez deviner le nombre, il est situé entre 0 et 100</h2>
+  <div class="container">
+    <div class="Half">
+      <label for="guess">Quel est votre proposition.</label>
+      <input type="text" name="guess" id="guess">
+      <button type="button" id="submit">Soumettre</button>
+    </div>
+    <div class="Half">
+      <p>Vos propositions :</p>
+      <p id="lastGuess"></p>
+      <p id="highLow"></p>
+    </div>
+  </div>
+  <script src="LeCompteEstBon.js"></script>
+</body>
+</html>

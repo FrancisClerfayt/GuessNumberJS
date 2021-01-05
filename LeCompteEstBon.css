@@ -1,0 +1,22 @@
+h1, h2 {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Half {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Half > * {
+  margin: 1% 0;
+  padding: 1% 3%;
+}
